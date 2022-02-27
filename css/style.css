@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+}
+
+.character-container p{
+    font-size: 10.5px;
+}
+
+.character-container h3{
+    font-size: 15.5px;
+}
+
+.character{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #696969;
+}
+
+.ctn-hero-nav{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(../Images/hero-background.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hero-section h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.5rem;
+    width: 660px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.hero-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section button{
+    padding: 12px 32px;
+    background: black;
+    color: #fff;
+    border: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-section button:hover{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.nav-bar-ctn a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+.nav-bar-ctn li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    background: #000;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar-ctn{
+    display: flex;
+    margin-right: 40px;
+}
+
+.container-logo img{
+    height: 60px;
+    padding-top: 15px;
+    margin-left: 40px;
+}
